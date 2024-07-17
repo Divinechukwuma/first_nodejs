@@ -1,0 +1,20 @@
+{
+  "name": "first_nodejs",
+  "version": "1.0.0",
+  "description": "my first node js task ,each tutorial is in a folder stage by stage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+  

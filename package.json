@@ -2,10 +2,10 @@
   "name": "first_nodejs",
   "version": "1.0.0",
   "description": "my first node js task ,each tutorial is in a folder stage by stage",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",

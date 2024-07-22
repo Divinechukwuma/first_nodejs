@@ -6,3 +6,10 @@
 20240719	00:37:20	4c4aeda8-e1b6-42f4-8af2-fabf3e1eafb5	/new-page.html	GET
 20240719	00:37:31	f10c3909-7e7b-4e54-8f5b-12670db803ab	/new-page.html	GET
 20240719	00:37:31	94f837ff-1040-4873-804f-74facf9ff1f7	/img/drone.jpg	GET
+20240722	22:35:20	898380ff-eb89-436b-982e-25dea5957b37	GET	undefined	/new-page.html
+20240722	22:35:45	7311e533-3ca7-4c0b-8645-d6ed042a2696	GET	undefined	/favicon.ico
+20240722	22:37:30	36eec1bd-6816-4816-adc1-bcf6dcf0ac5f	GET	undefined	/
+20240722	22:47:49	0b0213a6-53df-41a6-bf4c-ea1a8b05ebaa	OPTIONS	https://www.google.com	/
+20240722	22:50:19	13207cd9-9f3a-4f94-9ec4-309fc0b1cea6	OPTIONS	https://www.google.com	/
+20240722	22:50:57	77eaaa0f-3002-4052-84d0-5e86cc3fb637	GET	https://www.google.com	/
+20240722	22:50:57	42f7ab27-57ed-4492-bd69-079c4e9a1f30	GET	https://www.google.com	/

@@ -1,0 +1,4 @@
+20240723	19:37:59	5236b729-7bd1-4e48-aefe-5c615b2cce13	Error: not allowed by CORS
+20240723	20:01:56	f0406b31-542d-493a-b5de-02b66c7c9e73	TypeError: req.status is not a function
+20240723	20:02:35	2455a431-50c2-4c14-86dd-547d413e9e10	TypeError: req.status is not a function
+20240723	20:02:56	25c43d58-6eec-421c-bc44-0b7d4602a7ca	TypeError: req.status is not a function

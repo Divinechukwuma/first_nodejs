@@ -1,10 +1,10 @@
 const express = require('express');
+const app = express();
 const path = require('path');
 const cors = require('cors');
 const { logger } = require('./middleware/logEvents');
 const errorHandlers = require('./middleware/errorhandlers');
-const app = express();
-const PORT = process.env.port || 3500;
+const PORT = process.env.PORT || 3500;
 
 //log events function 
 app.use(logger)
@@ -35,11 +35,11 @@ app.use(express.urlencoded({ extended: false }));
 //built in middle ware for json 
 app.use(express.json());
 
-////serve static files
-app.use(express.static(path.join(__dirname, '/public')));
+//serve static files
+app.use('/', express.static(path.join(__dirname, '/public')));
+app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
-app.use(logger)
-
+app.use('/subdir', require('./routes/subdir'));
 
 app.get('^/$|index(.html)?', (req, res) => {
     //res.sendFile('./view/index.html',(root: __dirname)); 

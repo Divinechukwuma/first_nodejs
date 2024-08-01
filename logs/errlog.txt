@@ -2,3 +2,5 @@
 20240723	20:01:56	f0406b31-542d-493a-b5de-02b66c7c9e73	TypeError: req.status is not a function
 20240723	20:02:35	2455a431-50c2-4c14-86dd-547d413e9e10	TypeError: req.status is not a function
 20240723	20:02:56	25c43d58-6eec-421c-bc44-0b7d4602a7ca	TypeError: req.status is not a function
+20240801	13:11:16	22d8ff81-fc96-46c4-911e-065909f925fa	TypeError: req.json is not a function
+20240801	13:11:19	043dbaed-a900-458e-b5ae-7f7c1e2fad52	TypeError: req.json is not a function
